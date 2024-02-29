@@ -97,7 +97,7 @@ Summary:        Commands to control the kernel modules and libraries
 Group:          System Environment/Kernel
 License:        CDDL
 URL:            https://github.com/openzfs/zfs
-Source0:        %{name}-%{version}.tar.gz
+Source0:        https://github.com/openzfs/zfs/releases/download/zfs-%{version}/zfs-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 Requires:       libzpool5%{?_isa} = %{version}-%{release}
 Requires:       libnvpair3%{?_isa} = %{version}-%{release}

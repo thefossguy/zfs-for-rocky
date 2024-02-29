@@ -21,7 +21,7 @@ Summary:        Kernel module(s) (dkms)
 Group:          System Environment/Kernel
 License:        CDDL
 URL:            https://github.com/openzfs/zfs
-Source0:        https://github.com/openzfs/zfs/releases/zfs-%{version}/zfs-%{version}.tar.gz
+Source0:        https://github.com/openzfs/zfs/releases/download/zfs-%{version}/zfs-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch:      noarch
 
